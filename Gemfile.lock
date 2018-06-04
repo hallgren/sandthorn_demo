@@ -1,0 +1,57 @@
+PATH
+  remote: .
+  specs:
+    sandthorn_demo (0.1.0)
+      oj
+      sandthorn (~> 1.0)
+      sandthorn_driver_sequel (~> 4.0)
+      sandthorn_sequel_projection
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    atomic (1.1.101)
+    diff-lcs (1.3)
+    hamster (1.0.0)
+      atomic (~> 1.1)
+    oj (3.6.0)
+    rake (10.5.0)
+    rspec (3.7.0)
+      rspec-core (~> 3.7.0)
+      rspec-expectations (~> 3.7.0)
+      rspec-mocks (~> 3.7.0)
+    rspec-core (3.7.1)
+      rspec-support (~> 3.7.0)
+    rspec-expectations (3.7.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.7.0)
+    rspec-mocks (3.7.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.7.0)
+    rspec-support (3.7.1)
+    sandthorn (1.1.0)
+    sandthorn_driver_sequel (4.0.0)
+      sequel
+    sandthorn_event_filter (0.0.5)
+      hamster (~> 1.0)
+    sandthorn_sequel_projection (0.1.0)
+      sandthorn_event_filter (~> 0.0.4)
+      sequel
+      simple_migrator (~> 0.0.3)
+    sequel (5.8.0)
+    simple_migrator (0.0.3)
+      sequel
+    sqlite3 (1.3.13)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.16)
+  rake (~> 10.0)
+  rspec
+  sandthorn_demo!
+  sqlite3
+
+BUNDLED WITH
+   1.16.1
