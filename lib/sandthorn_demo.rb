@@ -1,5 +1,6 @@
 require "sandthorn_demo/version"
 require "sandthorn_demo/aggregates/folder"
+require "sandthorn_demo/projections/folder_names"
 
 require "sandthorn"
 require "sandthorn_driver_sequel"
